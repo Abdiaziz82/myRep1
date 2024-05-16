@@ -1,5 +1,5 @@
 function calculateGrades(marks) {
-    
+    //use while loops for each condition
 while (marks > 79 ) {
     return 'A';
 }
@@ -18,10 +18,12 @@ while(marks < 40) {
 
 
 }
+//consolelog to calculate the grades of students
 console.log(calculateGrades(20));
 
-
+//funtion to promt the student to put marks that ranges from 0 to 100
 const studentmarks = prompt('Enter student marks(between 0 and 100):')
+//set the condition on the numbers that a student should input
 if (!isNaN('studentMarks') &&  studentMarks  <=100 && studentMarks>= 0){
     const grade = calculateGrade('studentMarks')
     console.log(grade)
@@ -29,3 +31,7 @@ if (!isNaN('studentMarks') &&  studentMarks  <=100 && studentMarks>= 0){
     console.log(' enter -valid input')
 }
 
+for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+    
+}
