@@ -30,8 +30,3 @@ if (!isNaN('studentMarks') &&  studentMarks  <=100 && studentMarks>= 0){
 } else {
     console.log(' enter -valid input')
 }
-
-for (let index = 0; index < array.length; index++) {
-    const element = array[index];
-    
-}
