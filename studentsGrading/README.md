@@ -25,25 +25,6 @@ A simple grade calculator that takes a student's marks as input and returns thei
 
 * The `calculateGrade` function can be simplified using `if` statements instead of `while` loops.
 
-**Improved Code:**
-
-function calculateGrade(marks) {
-  if (marks > 79) return 'A';
-  if (marks >= 60 && marks <= 79) return 'B';
-  if (marks >= 49 && marks <= 59) return 'C';
-  if (marks >= 40 && marks <= 49) return 'D';
-  if (marks < 40) return 'E';
-  return 'Invalid marks';
-}
-
-const studentMarks = prompt('Enter student marks (between 0 and 100):');
-if (!isNaN(studentMarks) && studentMarks <= 100 && studentMarks >= 0) {
-  const grade = calculateGrade(studentMarks);
-  console.log(Grade)
-} else {
-  console.log('Enter valid input');
-}
-
 
 **Author:**
 [![Abdiaziz82](https://img.shields.io/badge/GitHub-Abdiaziz82-<blue>?logo=github&logoColor=blue)](https://github.com/Abdiaziz82)
